@@ -1,4 +1,4 @@
-##clip lens
+### clip lens
 
 A dockerized tool to search the visual contents of a youtube video by text, using OpenAI's CLIP text/image embeddings. The results are then stored in a Postgres db in a vector format. You can add multiple videos and search through all of them with a single query.
 
