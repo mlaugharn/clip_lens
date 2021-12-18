@@ -1,5 +1,4 @@
-#FROM nvcr.io/nvidia/l4t-ml:r32.5.0-py3
-FROM python:3.10
+FROM nvcr.io/nvidia/l4t-ml:r32.5.0-py3
 WORKDIR /code
 RUN apt update -y && apt upgrade -y
 RUN apt install ffmpeg libpq-dev -y
